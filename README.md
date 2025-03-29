@@ -131,8 +131,8 @@ end)
 -- Criar botão para abrir/fechar a GUI
 local ToggleButton = Instance.new("TextButton")
 ToggleButton.Text = "T"
-ToggleButton.Size = UDim2.new(0, 40, 0, 40)
-ToggleButton.Position = UDim2.new(1, -60, 0.1, 59) -- Ajustado para acompanhar o Frame mais para cima
+ToggleButton.Size = UDim2.new(0, 30, 0, 30)
+ToggleButton.Position = UDim2.new(1, -160, 0.9, 0) -- Ajustado para acompanhar o Frame mais para cima
 ToggleButton.BackgroundColor3 = Color3.new(0, 0, 0)
 ToggleButton.TextColor3 = Color3.new(1, 1, 1)
 ToggleButton.Font = Enum.Font.SourceSansBold
